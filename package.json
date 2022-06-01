@@ -7,5 +7,6 @@
   "devDependencies": {
     "@parcel/transformer-less": "2.6.0",
     "parcel": "^2.6.0"
-  }
+  },
+  "browserslist": "> 0.5%, last 2 versions, not dead"
 }

@@ -1,0 +1,54 @@
+@import (less) 'reset.css';
+
+body {
+  background: radial-gradient(50% 50% at 50% 50%, #252525 0%, #000000 120%);
+  background-size: 120vw;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.flex {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 30px;
+  min-height: 100vh;
+}
+
+#logo {
+  width: 100%;
+  max-width: 600px;
+  margin-bottom: 60px;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+
+  li a {
+    color: transparent;
+    background: white;
+    background-clip: text;
+    border-bottom: 3px solid white;
+    font-size: 32px;
+    font-family: 'Bangers', cursive;
+    letter-spacing: 1px;
+    padding: 0 0.1em;
+
+
+    &:hover {
+      background: linear-gradient(109deg, rgba(54,123,239,1) 0%, rgba(255,111,99,1) 40%, rgba(196,233,0,1) 80%, rgba(0,197,114,1) 100%);
+      background-clip: text;
+    }
+  }
+
+  @media screen and (min-width: 740px) {
+    flex-direction: row;
+    gap: 60px;
+  }
+}
