@@ -105,3 +105,6 @@ dist
 
 # Parcel
 .parcel-cache
+
+# macOS
+.DS_Store
