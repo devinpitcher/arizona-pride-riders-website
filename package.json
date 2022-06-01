@@ -1,4 +1,9 @@
 {
+  "source": "pages/index.html",
+  "scripts": {
+    "start": "parcel",
+    "build": "parcel build"
+  },
   "devDependencies": {
     "@parcel/transformer-less": "2.6.0",
     "parcel": "^2.6.0"
