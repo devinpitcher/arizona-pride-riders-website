@@ -25,11 +25,15 @@ export default function Home() {
         </li>
       </ul>
 
-      <div className="text-white max-w-2xl text-balance text-center space-y-4 mt-10">
+      <div className="text-white max-w-3xl text-balance text-center space-y-4 mt-10">
         <p className="text-xl">
-          We used to be on Meetup, but due to their recent price increases, we
-          have decided to close our Meetup group. For those who do not use
-          Facebook, we are investigating other options.
+          We used to have a private group on Meetup, but due to their recent{" "}
+          <span className="text-nowrap">
+            <span className="font-bold bg-red-600 px-1">65%</span> price
+            increase
+          </span>
+          , we unfortunately have decided to close it. For those who do not use
+          Facebook, we are investigating alternative options.
         </p>
         <p className="text-lg">
           If you would like to keep in touch with us in the meantime, you can
