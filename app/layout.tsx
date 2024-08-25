@@ -16,6 +16,8 @@ export const metadata: Metadata = {
     "A group for LGBTQIA2S+ motorcycle riders, enthusiasts, and their friends.",
 };
 
+export const runtime = "edge";
+
 export default function RootLayout({
   children,
 }: Readonly<{

@@ -2,6 +2,8 @@ import Image from "next/image";
 import logoImage from "../public/logo.png";
 import { EmailSignupForm } from "@/app/components/EmailSignupForm";
 
+export const runtime = "edge";
+
 export default function Home() {
   return (
     <div className="flex flex-col items-center justify-center p-8 min-h-full">
