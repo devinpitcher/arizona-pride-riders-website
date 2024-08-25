@@ -1,6 +1,2 @@
 name = "arizona-pride-riders"
 compatibility_date = "2024-08-24"
-pages_build_output_dir = "./.vercel/output/static"
-
-[build]
-command = "pnpm exec @cloudflare/next-on-pages@1"
